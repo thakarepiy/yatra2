@@ -9,6 +9,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class Bus {
     @GetMapping("/mybus")
     public String getData(){
-        return "Please book your bus tickets, Aaliya Express Lines";
+        return "Please book your bus tickets, Aaliya Express Lines Bus";
     }
 }
